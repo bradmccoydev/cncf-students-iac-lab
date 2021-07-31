@@ -11,11 +11,43 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/bradmccoydev/cncf-students-iac-lab"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          GitHub Code for this site
+        </a>
+        <a
+          className="App-link"
+          href="https://bradmccoydev.medium.com/how-to-get-your-first-job-as-a-devops-engineer-a0bffbbdc6b8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog - How to Become a DevOps Engineer
+        </a>
+        <a
+          className="App-link"
+          href="https://bradmccoydev.medium.com/devops-journey-how-to-get-certified-in-terraform-c0bce1caa3d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog - Getting Certfied in Terraform
+        </a>
+        <a
+          className="App-link"
+          href="https://bradmccoydev.medium.com/devops-journey-how-to-get-certified-in-terraform-c0bce1caa3d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog - Terraform and Azure Kubernetes Service
+        </a>
+        <a
+          className="App-link"
+          href="https://twitter.com/bradmccoydev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Brads Twitter - Follow more more upcoming labs
         </a>
       </header>
     </div>
