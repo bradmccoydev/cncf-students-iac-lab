@@ -7,4 +7,7 @@ AWS SSL cert created in us-east-1
 AWS Domain Name
 AWS CLI
 AWS Access Key and Secret Key
-run aws configure in cli with created access keys
+Run aws configure in cli with created access keys
+Download Terraform
+
+# Terraform Commands

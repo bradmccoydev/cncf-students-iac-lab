@@ -16,7 +16,7 @@ variable "ssl_cert" {
 
   validation {
     condition     = contains(["acm", "us-east-1"], var.ssl_cert)
-    error_message = "Cert name must be a acm cert from us-east-1"
+    error_message = "Cert name must be a acm cert from us-east-1?"
   }
 }
 
