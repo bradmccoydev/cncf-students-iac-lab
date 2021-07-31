@@ -13,11 +13,6 @@ variable "route53_zone_id" {
 variable "ssl_cert" {
   description = "SSL Cert for Website"
   type        = string
-
-  validation {
-    condition     = contains(["acm", "us-east-1"], var.ssl_cert)
-    error_message = "Cert name must be a acm cert from us-east-1?"
-  }
 }
 
 variable "tags" {

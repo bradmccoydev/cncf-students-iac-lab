@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && aws s3 sync build/ s3://cncfstudents.bradmccoy.io --acl public-read --profile bradmccoy.io"
+    "deploy": "yarn build && aws s3 sync build/ s3://cncfstudents.bradmccoy.io --acl public-read --profile bradmccoy.io && aws cloudfront create-invalidation --distribution-id E12HTXKYNPENO1 --paths /* --profile bradmccoy.io"
   },
   "eslintConfig": {
     "extends": [
